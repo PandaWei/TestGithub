@@ -9,5 +9,6 @@
 
 int main()
 {
-   printf("Just test the github configuration.\n");
+    printf("conflict by master!\n");
+    printf("Just test the github configuration.\n");
 }
