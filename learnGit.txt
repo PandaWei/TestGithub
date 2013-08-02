@@ -1,0 +1,23 @@
+git init            : 初始化当前项目，生成隐藏文件夹.git
+git add file        : 为当前项目做个快照，或称为index
+git commit file     : 将快照永久写入仓库
+
+git diff --cached   : 查看当前index与仓库之间代码的区别，一般在add之后使用
+git diff            : 查看working tree与仓库之间代码的区别，一般在修改代码之后使用
+
+git status          : 获取当前项目的整体改动
+changed but not updated->已经修改，但未git add
+changes to be committed->已经git add，但未git commit
+untracked files->增加了新文件
+
+git log             : 查看修改
+git log -p          : 更多详细信息
+
+git branch experimental : 创建experimental分支
+git branch              : 查看分支
+
+
+git checkout experimental: 切换到experimental分支
+git checkout master     : 切换到master分支
+git merge experimental  : 合并experimental分支到master分支
+
