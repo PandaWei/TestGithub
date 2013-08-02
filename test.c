@@ -11,4 +11,6 @@ int main()
 {
     printf("conflict by master!\n");
     printf("Just test the github configuration.\n");
+    printf("conflict by test!\n");
+    printf("Just test the github configuration.\n");
 }
