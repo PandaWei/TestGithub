@@ -15,9 +15,10 @@ git log -p          : 更多详细信息
 
 git branch experimental : 创建experimental分支
 git branch              : 查看分支
-
+git branch -d experimental: 删除experimental分支
 
 git checkout experimental: 切换到experimental分支
 git checkout master     : 切换到master分支
 git merge experimental  : 合并experimental分支到master分支
+
 
