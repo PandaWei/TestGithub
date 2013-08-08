@@ -15,3 +15,7 @@ rc.local
 /root/.bashrc
 /root/.bash_profile
 
+
+注释：
+/etc/bashrc  ->  每次新打开shell时都会读取
+/etc/rc.local ->  开机启动时读取
