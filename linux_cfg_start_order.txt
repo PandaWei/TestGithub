@@ -1,0 +1,17 @@
+edhat Redflag centos fc linux系统里面脚本的启动
+
+先后：
+第一步：通过/boot/vm进行启动 vmlinuz
+第二步：init /etc/inittab
+第三步：启动相应的脚本，并且打开终端
+rc.sysinit
+rc.d(里面的脚本）
+rc.local
+第四步：启动login登录界面 login
+第五步:在用户登录的时候执行sh脚本的顺序：每次登录的时候都会完全执行的
+/etc/profile.d/file
+/etc/profile
+/etc/bashrc
+/root/.bashrc
+/root/.bash_profile
+
