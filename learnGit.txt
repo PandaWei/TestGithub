@@ -5,6 +5,10 @@ git commit file     : 将快照永久写入仓库
 git diff --cached   : 查看当前index与仓库之间代码的区别，一般在add之后使用
 git diff            : 查看working tree与仓库之间代码的区别，一般在修改代码之后使用
 
+git fetch origin master: 从远程获取最新版本到本地，不会自动merge
+git pull origin master:  从远程获取最新版本到本地，自动merge
+git push origin master:  将本地版本推向远程
+
 git status          : 获取当前项目的整体改动
 changed but not updated->已经修改，但未git add
 changes to be committed->已经git add，但未git commit
