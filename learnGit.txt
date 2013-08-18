@@ -25,4 +25,6 @@ git checkout experimental: 切换到experimental分支
 git checkout master     : 切换到master分支
 git merge experimental  : 合并experimental分支到master分支
 
-
+git reset --hard commit-id	:
+git reset --hard	:将最近一次的提交回滚
+git reset --hard HEAD~3	:将最近3次的提交回滚
