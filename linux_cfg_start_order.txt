@@ -6,9 +6,9 @@ edhat Redflag centos fc linux系统里面脚本的启动
 第三步：启动相应的脚本，并且打开终端
 rc.sysinit
 rc.d(里面的脚本）
-rc.local
+rc.local     ->  仅开机时读取一次
 第四步：启动login登录界面 login
-第五步:在用户登录的时候执行sh脚本的顺序：每次登录的时候都会完全执行的
+第五步: 在用户登录的时候执行sh脚本的顺序：每次登录的时候都会完全执行的
 /etc/profile.d/file
 /etc/profile
 /etc/bashrc
