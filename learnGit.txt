@@ -28,3 +28,6 @@ git merge experimental  : 合并experimental分支到master分支
 git reset --hard commit-id	:
 git reset --hard	:将最近一次的提交回滚
 git reset --hard HEAD~3	:将最近3次的提交回滚
+
+git checkout <文件路径>  ： 撤销已修改的文件
+git reset HEAD <文件路径> : 撤销已暂存的文件
