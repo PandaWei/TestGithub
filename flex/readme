@@ -1,0 +1,14 @@
+
+subject:
+   example for flex
+
+operation:
+1) flex matchMeta.lex
+2) gcc -g matchMeta.lex -o matchMeta
+3) ./match
+   > add 23+34
+   n identifier: add
+   Unrecognized character:  
+   An integer: 23 (23)
+   An operator: +
+   An integer: 34 (34)
