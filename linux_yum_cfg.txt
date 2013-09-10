@@ -1,24 +1,32 @@
 删除redhat原有的yum(可省略)
-rpm -aq | grep yum|xargs rpm -e –nodeps 
+#rpm -aq | grep yum|xargs rpm -e –nodeps 
 
 如果没有安装yum包，则下载yum安装文件
-wget http://mirrors.163.com/centos/6.3/os/i386/Packages/yum-3.2.29-30.el6.centos.noarch.rpm  
-wget http://mirrors.163.com/centos/6.3/os/i386/Packages/yum-metadata-parser-1.1.2-16.el6.i686.rpm 
-wget http://mirrors.163.com/centos/6.3/os/i386/Packages/yum-plugin-fastestmirror-1.1.30-14.el6.noarch.rpm
-wget http://mirrors.163.com/centos/6.3/os/i386/Packages/python-iniparse-0.3.1-2.1.el6.noarch.rpm
+#wget http://mirrors.163.com/centos/6.3/os/x86_64/Packages/yum-3.2.29-30.el6.centos.noarch.rpm  
+#wget http://mirrors.163.com/centos/6.3/os/x86_64/Packages/yum-metadata-parser-1.1.2-16.el6.i686.rpm 
+#wget http://mirrors.163.com/centos/6.3/os/x86_64/Packages/yum-plugin-fastestmirror-1.1.30-14.el6.noarch.rpm
+#wget http://mirrors.163.com/centos/6.3/os/x86_64/Packages/python-iniparse-0.3.1-2.1.el6.noarch.rpm
 
 进行安装yum
-rpm -ivh python*
-rpm -ivh rum* 
+#rpm -ivh python*
+#rpm -ivh rum* 
 
 更改yum源: 我们使用网易的CentOS镜像源
-cd /etc/yum.repos.d/
-wget http://mirrors.163.com/.help/CentOS6-Base-163.repo
-vim CentOS6-Base-163.repo 
+#cd /etc/yum.repos.d/
+#wget http://mirrors.163.com/.help/CentOS6-Base-163.repo
+#vim CentOS6-Base-163.repo 
 
 #编辑文件:
 把文件里面的$releasever全部替换为版本号，即6.3最后保存！(替换为6成功！) 
-yum clean all    #清理yum缓存
-yum makecache    #将服务器上的软件包信息缓存到本地,以提高搜索安装软件的速度
-yum install gcc
+#yum clean all    #清理yum缓存
+#yum makecache    #将服务器上的软件包信息缓存到本地,以提高搜索安装软件的速度
+#yum install gcc
 
+#安装flash-plugin
+#wget http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.0-1.noarch.rpm
+#sudo rpm -ivh adobe-release-x86_64-1.0-1.noarch.rpm
+#sudo yum -y install flash-plugin
+
+#config fedora yum
+Fedora 19的源：
+#sudo yum localinstall --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-19.noarch.rpm  http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-19.noarch.rpm
