@@ -1,3 +1,7 @@
+/*
+ * Please refer http://www.mpich.org
+ */
+
 #include <stdio.h>
 #include "mpi.h"
 
