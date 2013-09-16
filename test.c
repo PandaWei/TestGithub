@@ -1,5 +1,5 @@
 /*
- * desc: just test ...
+ * desc: Just test GitHub's Application ...
  * author:Wei Jiangang
  * email:<weijg.fnst@cn.fujitsu.com>
  */
