@@ -16,6 +16,18 @@ untracked files->增加了新文件
 
 git log             : 查看修改
 git log -p          : 更多详细信息
+git reflog          : 可以查看所有分支的所有记录
+
+恢复在已丢失或删除的commit-id：
+1) git reflog  查找丢失的commit-id
+2）恢复操作：git cherry-pick commit-id 或 git reset --hard commit-id
+
+恢复丢失的版本,出现*（no branch）时：
+1）如果当前正工作在(no branch)上,则将(no branch)上的东西checkout到bak分支
+# git checkout -b bak
+2）如果不小心从（no branch）分支切换到其他分支了，git log无法查找到（no branch）上的信息：
+# git reflog
+# git checkout -b bak commit-id
 
 git branch experimental : 创建experimental分支
 git branch              : 查看分支
