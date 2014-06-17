@@ -9,4 +9,4 @@
 /dev/mapper/rhel-root   /                       xfs     defaults        1 1
 UUID=0a3e7ba0-7572-4b3f-a01e-0edc466d0534 /boot                   xfs     defaults        1 2
 /dev/mapper/rhel-swap   swap                    swap    defaults        0 0
-//192.168.80.1/win      /mnt/win		cifs    defaults,username=weijg.fnst,password=1zhxcql! 0 0
+//192.168.80.1/win      /mnt/win		cifs    defaults,username=xxx,password=xxx 0 0
