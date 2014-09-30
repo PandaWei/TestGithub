@@ -1,0 +1,24 @@
+一、环境准备：
+1、guest最小化安装。guest name: vm1 root password:123456
+2、安装完毕后登入guest，设置eth0为dhcp并自动启动。
+3、配置yum源
+4、执行
+yum install vim -y
+yum install perl* -y
+yum install openssh* -y
+yum install gcc -y
+5、拷贝测试集：193.168.253.44:/add_storage/wwq/autotest_fjtest_v1.1.tar.gz
+6、在host控制端 export AUTOTEST_PATH=/add_storage/wwq/autotest_fjtest_v1.1 (测试集所在目录)
+7、进入到测试集所在目录下 client/tests/virt目录下
+8、执行vim test-providers.d/io-github-autotest-libvirt.ini
+将第二行的uri: file:/// 修改到测试集所在路径
+[provider]
+uri: file:///add_storage/wwq/autotest_fjtest_v1.1/client/tests/virt/tp-libvirt
+9、执行 rm -f backends/libvirt/env
+二、执行测试集
+1、执行
+./run -t libvirt  --no-downloads -k --keep-image-between-tests --tests="type_specific.io-github-autotest-libvirt.hugepage_start_with_static.with_hugepage_tag.mount_hugepage type_specific.io-github-autotest-libvirt.hugepage_start_with_static.with_hugepage_tag.umount_hugepage type_specific.io-github-autotest-libvirt.hugepage_start_with_static.without_hugepage_tag.mount_hugepage type_specific.io-github-autotest-libvirt.hugepage_start_with_static.without_hugepage_tag.umount_hugepage type_specific.io-github-autotest-libvirt.hugepage_memory_use.compare_to_vm_memory.set_thp.set_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_memory_use.without_compare_to_vm_memory.set_thp.set_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_memory_use.without_compare_to_vm_memory.set_thp.set_static_hugepage.no_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_memory_use.without_compare_to_vm_memory.set_thp.no_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_memory_use.without_compare_to_vm_memory.set_thp.no_static_hugepage.no_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_memory_use.without_compare_to_vm_memory.no_thp.set_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_memory_use.without_compare_to_vm_memory.no_thp.set_static_hugepage.no_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_under_stress.with_transparent_hugepage.with_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_under_stress.with_transparent_hugepage.with_static_hugepage.no_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_under_stress.with_transparent_hugepage.without_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_under_stress.with_transparent_hugepage.without_static_hugepage.no_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_under_stress.without_transparent_hugepage.with_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_under_stress.without_transparent_hugepage.with_static_hugepage.no_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_with_unixbench.set_thp.set_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_with_unixbench.set_thp.set_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_with_unixbench.set_thp.set_static_hugepage.no_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_with_unixbench.set_thp.no_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_with_unixbench.set_thp.no_static_hugepage.no_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_with_unixbench.no_thp.no_static_hugepage.set_hugepage_tag type_specific.io-github-autotest-libvirt.hugepage_with_unixbench.no_thp.no_static_hugepage.no_hugepage_tag io-github-autotest-libvirt.libvirt.hugepage_max_num_setting" -v
+
+2、结果查看
+vim logs/latest/debug.log
+
