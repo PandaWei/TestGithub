@@ -1,0 +1,18 @@
+http://blog.csdn.net/huithe/article/details/7484606
+http://blog.csdn.net/pi9nc/article/details/15097971
+http://www.jb51.net/article/19111.htm
+
+
+Q1:
+class classproperty(property):
+
+    def __get__(self, obj, type_):
+        data = self.fget.__get__(None, type_)()
+        return data
+
+    def __set__(self, obj, value):
+        cls = type(obj)
+        return self.fset.__get__(None, cls)(value)
+
+Q2:
+dict.__getitem__
