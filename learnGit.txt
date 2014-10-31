@@ -20,6 +20,44 @@ git reset --hard HEAD~3	:将最近3次的提交回滚
 git checkout <文件路径>  ： 撤销已修改的文件
 git reset HEAD <文件路径> : 撤销已暂存的文件
 
+-------------------------patch-------------------------------
+
+----------1-----------
+# git format-patch -M master         // _当前_分支所有超前master的提交
+# git format-patch -s 4e16           // 某次提交以后的_所有_的patch, --4e16指的是commit
+# git format-patch -1                // 单次提交
+# git format-patch -3                // 从master往前3个提交的内容，可修改为你想要的数值
+# git format-patch -n 07fe           // -n指patch数，07fe对应提交的名称, 某次提交（含）之前的几次提交
+
+应用patch：
+先检查patch文件： # git apply --stat new.patch
+检查能否应用成功：# git apply --check  new.patch
+打补丁：          # git am -s < new.patch
+
+(使用-s或--signoff选项，可以commit信息中加入Signed-off-by信息)
+
+reverse:          # git apply -R newpatch.patch
+
+----------2-----------
+# git diff > new.patch
+# git diff master experimental > new.patch
+# patch -p1 < test.patch  
+                  
+       //git diff, 补丁文件如下示： 用-p1
+       //---a/xx/xxx/xxx   
+       //+++b/xx/xxx/xxx
+                  
+       //git diff --no-prefix, 补丁文件如下示： 用-p0
+       //---xx/xxx/xxx   
+       //+++xx/xxx/xxx
+-------------------------stash---------------------------
+Git暂存管理
+
+git stash # 暂存
+git stash list # 列所有stash
+git stash apply # 恢复暂存的内容
+git stash drop # 删除暂存区
+
 ---------------------branch&repo-----------------------------
 
 git branch experimental : 创建experimental分支
