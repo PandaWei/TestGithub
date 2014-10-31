@@ -1,19 +1,70 @@
+---------------------diff&commit&rollback----------------------
+
 git init            : 初始化当前项目，生成隐藏文件夹.git
 git add file        : 为当前项目做个快照，或称为index
 git commit file     : 将快照永久写入仓库
-
-git diff --cached   : 查看当前index与仓库之间代码的区别，一般在add之后使用
-git diff            : 查看working tree与仓库之间代码的区别，一般在修改代码之后使用
-
-git fetch origin master: 从远程获取最新版本到本地，不会自动merge
-git pull origin master:  从远程获取最新版本到本地，自动merge
-git push origin master:  将本地版本推向远程
+git commit --amend  : 修改最近一次提交说明
 
 git status          : 获取当前项目的整体改动
 changed but not updated->已经修改，但未git add
 changes to be committed->已经git add，但未git commit
 untracked files->增加了新文件
 
+git diff --cached   : 查看当前index与仓库之间代码的区别，一般在add之后使用
+git diff            : 查看working tree与仓库之间代码的区别，一般在修改代码之后使用
+
+git reset --hard commit-id	:
+git reset --hard	:将最近一次的提交回滚
+git reset --hard HEAD~3	:将最近3次的提交回滚
+
+git checkout <文件路径>  ： 撤销已修改的文件
+git reset HEAD <文件路径> : 撤销已暂存的文件
+
+---------------------branch&repo-----------------------------
+
+git branch experimental : 创建experimental分支
+git branch              : 查看分支
+git branch -d experimental: 删除experimental分支
+
+git checkout experimental: 切换到experimental分支
+1) git checkout master     : 切换到master分支
+2) git merge experimental  : 合并experimental分支到master分支
+
+
+git pull origin master:  从远程获取最新版本到本地，自动merge
+git push origin master:  将本地版本推向远程
+
+git push origin test:master   // 提交本地test分支作为远程的master分支
+git push origin test:test     // 提交本地test分支作为远程的test分支
+git push origin :test          // 刚提交到远程的test将被删除，但是本地还会保存的，不用担心
+git push origin -f HEAD:develop //HEAD指代本分支
+
+git fetch origin master: 从远程获取最新版本到本地，不会自动merge
+git fetch origin master:develop //从remote fetch指定分支内容，本地没有develop，fetch会帮忙建立
+
+git status          : 获取当前项目的整体改动
+changed but not updated->已经修改，但未git add
+changes to be committed->已经git add，但未git commit
+untracked files        ->增加了新文件
+
+----------------------- rebase -----------------------------
+git rebase -i commit号        // 重新调整commit号之前的所有commit
+
+git rebase
+1) git checkout experimental      // experimental 创建自 master 
+2) git rebase master              
+   注："experimental"分支里的每个提交(commit)取消掉，并且把它们临时保存为补丁(patch)。
+       (这些补丁被放置在".git/rebase"目录中),
+       然后把"experimental"分支更新为最新的"master"分支，
+       最后把保存的这些补丁应用到"experimental"分支上。
+3) 如果出现冲突,则解决每个应用补丁冲突。
+4) git add -u 或 git add coflict-file // -u 表示把所有已track的文件的新的修改加入缓存，但不加入新的文件。
+5) git rebase --continue              // 然后执行下面命令继续rebase：
+6) 有冲突继续解决，重复步骤3)4)5)，直到rebase完成。
+7) 如果中间遇到某个补丁不需要应用，可以忽略： git rebase --skip
+8) 如果想回到rebase执行之前的状态，可以中止： git rebase --aborte
+
+----------------------log & restore---------------------------
 git log             : 查看修改
 git log -p          : 更多详细信息
 git reflog          : 可以查看所有分支的所有记录
@@ -28,18 +79,3 @@ git reflog          : 可以查看所有分支的所有记录
 2）如果不小心从（no branch）分支切换到其他分支了，git log无法查找到（no branch）上的信息：
 # git reflog
 # git checkout -b bak commit-id
-
-git branch experimental : 创建experimental分支
-git branch              : 查看分支
-git branch -d experimental: 删除experimental分支
-
-git checkout experimental: 切换到experimental分支
-git checkout master     : 切换到master分支
-git merge experimental  : 合并experimental分支到master分支
-
-git reset --hard commit-id	:
-git reset --hard	:将最近一次的提交回滚
-git reset --hard HEAD~3	:将最近3次的提交回滚
-
-git checkout <文件路径>  ： 撤销已修改的文件
-git reset HEAD <文件路径> : 撤销已暂存的文件
