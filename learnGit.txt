@@ -68,13 +68,18 @@ git checkout experimental: 切换到experimental分支
 1) git checkout master     : 切换到master分支
 2) git merge experimental  : 合并experimental分支到master分支
 
+git remote add origin https://github.com/XXX(username)/YYYY(projectname).git
+　　加上一个remote的地址，名叫origin，地址是github上的地址（Create a new repo就会有）
+　　因为Git是分布式的，所以可以有多个remote.
+    git push -u origin master
+　　将本地内容push到github上的那个地址上去。-u: --up-stream
 
 git pull origin master:  从远程获取最新版本到本地，自动merge
 git push origin master:  将本地版本推向远程
 
 git push origin test:master   // 提交本地test分支作为远程的master分支
 git push origin test:test     // 提交本地test分支作为远程的test分支
-git push origin :test          // 刚提交到远程的test将被删除，但是本地还会保存的，不用担心
+git push origin :test          // 远程的test将被删除，但是本地还会保存的，不用担心
 git push origin -f HEAD:develop //HEAD指代本分支
 
 git fetch origin master: 从远程获取最新版本到本地，不会自动merge
