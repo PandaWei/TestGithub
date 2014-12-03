@@ -17,7 +17,7 @@ rc.local     ->  仅开机时读取一次
 
 
 注释：
-/etc/bashrc  ->  每次新打开shell时都会读取
+/etc/bashrc  ->  每次新打开新shell时都会读取
 /etc/rc.local ->  开机启动时读取
 
 添加环境变量的方法：
