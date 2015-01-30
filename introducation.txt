@@ -1,0 +1,83 @@
+Ok, first of all,
+I want to say thank you.
+we all know that,
+HW is one of the most famous Information Technology company around the world.
+Not everybody can get the interview chance face by face.
+so i'm glad to talk about meself.
+
+I graduated from JN university before three years ago,
+and got my master degree.
+My major is computer application technology.
+There's a lot of things and memory,
+which makes me feel be proud of it in my student life.
+Just for your information,
+I was the chairman of student union.
+and i had got kinds of scholarship for serval times,
+and so on.
+you can got more detail at my resume.
+
+Now, i am a software development engineer at fnst.
+fnst was established by NJ university and Fujitsu group
+which is also one of the most famous IT company at Japan.
+
+
+I am good at c and python programming language.
+Linux platform is fimilar to me,
+I am able to use some open source tools with ease,
+such as, gcc, gdb, ftrace. 
+
+And then,
+I have got the software designer and network engineer certificate.
+The certificates are good enough evidence for my ability at programming.
+
+Generally speaking,
+Project experience is important to the softeware engineer.
+specially, who want to get a new job.
+I wish these experience can prove that,
+I have ability to do some useful and valuable work for HW.
+
+The first is HPC,
+HPC means high performance compute.
+Maybe you heard ShuGuang super computer, which created by chinese.
+I am doing some work for another super computer,
+we call it K-computer at fujitsu group.
+I am responsible for staging function, which used to transfer huge data
+between different nodes with high speed.
+
+The second is Autotest.
+Autotest is a frame to automate testing.
+it's designed to test linux kernel.
+but now, it can be used to many other function.
+for example, qemu , libvirt and other virtual technology.
+I have submitted more 30 pathes, and they all had been merged to baseline.
+
+The last is crash.
+crash can be used to analysis the reason why linux kernel's touble.
+I mainly did some test work for its' funciton.
+two year ago, i had sent a patch request to this community to improve this tool.
+
+besides above,
+I think i should say clearly why i want to change a company.
+The biggest reason is salary.
+To be honest, it's all about money.
+Not long ago, I bought a house at Jiangning district.
+It brings a lot of pressure.
+I had to consider how can i pay off a large sum of money to bank.
+And i want to learn more new knowledge about programming,
+and to do some challening work.
+HW is a gloabl company. i feel it meets all of my requirements and
+maybe give me some special experience.
+
+At last, 
+I think i am a hard-working, responsible and outgoing person.
+I am also a good team player, 
+will be happy to work with other colleages.
+
+Ok, I wish my introducation will persuade you to trust me.
+trust that i can do some contribution for HW.
+Thank you for giving this chance.
+
+
+
+
+
