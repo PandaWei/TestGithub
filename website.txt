@@ -2,6 +2,14 @@ http://blog.csdn.net/huithe/article/details/7484606
 http://blog.csdn.net/pi9nc/article/details/15097971
 http://www.jb51.net/article/19111.htm
 
+QEMU:
+http://wiki.qemu.org/Main_Page
+KVM:
+http://www.linux-kvm.org/page/Main_Page
+
+OpenStack:
+https://www.openstack.org/
+
 
 Q1:
 class classproperty(property):
