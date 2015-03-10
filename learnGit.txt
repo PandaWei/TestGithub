@@ -90,6 +90,9 @@ changed but not updated->已经修改，但未git add
 changes to be committed->已经git add，但未git commit
 untracked files        ->增加了新文件
 
+------------------获取远程分支作为本地的同名分支------------
+git fetch self test
+git checkout -b test self/test
 ----------------------- rebase -----------------------------
 git rebase -i commit号        // 重新调整commit号之前的所有commit
 
