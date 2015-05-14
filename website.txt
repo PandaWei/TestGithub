@@ -17,6 +17,8 @@ https://www.openstack.org/
 Title:programming a simple UNIX-clone OS for x86
 http://www.jamesmolloy.co.uk/tutorial_html/
 
+Linux内存管理
+http://www.kerneltravel.net/journal/v/mem.htm
 
 ###################################################
 
