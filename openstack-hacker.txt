@@ -1,4 +1,6 @@
-https://www.ustack.com/blog/openstack_hacker/：
+1.http://www.choudan.net/archives.html (博客)
+
+2.https://www.ustack.com/blog/openstack_hacker/：
 
 0 阅读指南
 
