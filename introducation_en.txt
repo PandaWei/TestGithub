@@ -1,0 +1,76 @@
+# Firstly, I want to say thank you.
+# we all know that,
+# X is one of the most famous IT company around the world.
+# Not everybody can get the interview chance face by face.
+# I'm glad to talk about myself here. 
+
+
+My personal inforation has been written on the paper. and you can got more details at my resume.
+
+I graduated from JN university, which located in WuXi, and got my master degree.
+My major is computer application technology.
+
+# There's a lot of things and memory in my student life, which makes me feel be proud of it.
+# Just for your information,
+# I was the chairman of student union, and i had got kinds of scholarship for serval times.
+
+Now, i am a software development engineer at Y, 
+which was established by NJ university and F group.
+which is also one of the most famous IT company at Japan and It have good cooperation with Redhat.
+
+I am good at c and python programming language.
+Linux platform is familar to me,
+I am able to make full use of open source tools to program and debug, such as, gcc, gdb. 
+
+And then,
+I have got the certificate of software designer and network engineer.
+The certificates are good enough evidence for my ability at programming.
+
+Generally speaking,
+Project experience is important to a softeware engineer, specially, who want to get a new job.
+
+so, I have to talk about my experience in the last 4 years;
+
+As same as you see on my resume,
+I had attended several projects, we can divide them into two group,
+One is related to Open Source, everyone can contribute to and obtain them without any charge.
+The other is not.
+
+I'm very interested in Open Source and its' community, 
+such as openstack, linux test project, libvirt and so on.
+
+Especially,
+I would like to focus on Autotest, which is a open framework to automate test.
+it's designed to test linux kernel.
+But now, Anybody can add test object into it, for example, 
+qemu, libvirt and other virtualization technology.
+
+I am the maintainer of it's virtualization module, 
+and contributed more than 200 patches to it.
+
+Besides above, I want to introduce the experience of HPC project,
+HPC means high performance compute.
+
+Maybe you heard ShuGuang super computer, which created by chinese.
+I am doing some work for another super computer,
+we call it K-computer at fujitsu group.
+I am responsible for staging function, which used to transfer huge data
+between different nodes with high speed.
+It involves many technology point. I have listed them in the resume.
+
+
+Maybe you will ask me why i want to change a job.
+To be honest, The biggest reason is salary.
+
+Not long ago, I bought a house at JN district. It brings me a lot of pressure.
+I had to consider how can i pay off a large sum of money to bank.
+And i want to learn more new knowledge about programming,
+and to do some challening work.
+X is a gloabl company. i feel it meets all of my requirements and maybe give me some special experience.
+
+At last, 
+I think i am a hard-working, responsible and outgoing person.
+I am also a good team player and will be happy to work together with other workmates.
+
+Ok, I wish my words can persuade you to trust me.
+trust that i can do some valuable work and contribution for X.
