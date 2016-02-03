@@ -1,3 +1,17 @@
+
+
+---------------------------------------------------------
+*****
+
+深入理解Neutron -- OpenStack 网络实现
+https://yeasy.gitbooks.io/openstack_understand_neutron/content/intro/index.html
+---------------------------------------------------------
+深入理解OpenStack网络框架（系列）：
+http://blog.csdn.net/halcyonbaby/article/details/41524447
+
+
+
+----------------------------------------------------------
 1.http://www.choudan.net/archives.html (博客)
 
 2.https://www.ustack.com/blog/openstack_hacker/：
