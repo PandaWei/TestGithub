@@ -12,8 +12,14 @@ http://blog.csdn.net/halcyonbaby/article/details/41524447
 http://prajnagarden.com/openstack/2015/12/18/instance-boot-workflow-troubleshooting/?utm_source=tuicool&utm_medium=referral
 
 
+http://www.cnblogs.com/sammyliu/
+
+
+
 ----------------------------------------------------------
 1.http://www.choudan.net/archives.html (博客)
+
+
 
 2.https://www.ustack.com/blog/openstack_hacker/：
 
