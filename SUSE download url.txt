@@ -1,0 +1,51 @@
+server-------------------------------------------------
+
+11 sp4
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2FtqRrEpjl5SY%7E%2FSLES-11-SP4-DVD-x86_64-GM-DVD1.iso%3FEyOlvONZeU1s-ognPksZjQivQ6mZz40SsDTwBxVk_w7diJbuB_f7wjzugwbFFfu1r-5FiSRpuqzEw9ipDkMMPDBdyJ8Epu1A9AbvCk-qSP_JejlddqGw46xhXY4ecK6rBETw-2YGb8As1KeSRNSKm1ICOw&buildid=tqRrEpjl5SY~&fileid=AZXgWhgux6A~&mirror=AkamaiHost&nohost=false&guid=undefined&ws=true
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2FtqRrEpjl5SY%7E%2FSLES-11-SP4-DVD-x86_64-GM-DVD2.iso%3FggJkw6MtrwfFcxWkMcoilYn2qztdWp541USp-8f8p5cYQF3q_U4B7IleCGuofjCfLI6pRT__tJqRuwyzpMt5975ReA6U0r8mryfzl7D3lXPWu8GBXR094PdcpgazQXjm7SafsWYkm8V0lJzvLvrn8Zt07Q&buildid=tqRrEpjl5SY~&fileid=Hkdab38wgFo~&mirror=AkamaiHost&nohost=false
+
+
+12
+
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2FFFg0PzSTGrw%7E%2FSLE-12-Server-DVD-x86_64-GM-DVD1.iso%3FGhD2ynYfk3IwDMYlt1fY8rZLdQd0PIkj7jB9qcv3S0kAI5ohnP8ZTSf1QhyMqbX6tId3Y0E7hF-rBIjsgDOnfHukwTQsQkFV-Y8rlO2NtQvxQbVrXsy9Uz-HZ3_tZPnFvfxjKNZri61v-ioPApT2r5qqfoPj&buildid=FFg0PzSTGrw~&fileid=rsZqUo7jDCQ~&mirror=AkamaiHost&nohost=false
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2FFFg0PzSTGrw%7E%2FSLE-12-Server-DVD-x86_64-GM-DVD2.iso%3FThg0Pvgrxvgy3iUsiNmz8FvHirfClyCSwSdI_0fYmIDQmXVE4o_g4clovkv0P9vkIovPLGX6AZ2dfx80LfbfiUf4vs9PdYQB5YJT1Sep_JblH_6DcyoFUfoWBQHe4RpDzb-G4Cdkx05nY1cWP1SXWrJkDTiF&buildid=FFg0PzSTGrw~&fileid=gPWFj-1A5TM~&mirror=AkamaiHost&nohost=false
+
+12-sp1
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2Foge_9GL0hBs%7E%2FSLE-12-SP1-Server-DVD-x86_64-GM-DVD1.iso%3FENVHErefiprVapN5mQa8KV0JpinOslt9NuWqEMFvNWQr_r8q5RIu1Z-zavc9Vuu0DjvRo2tcVYzmKE43f7DYeBb_zEgtvjhH8OAmS7V9Xxh0kGHFs3iSKBRzJMtykFD2AQx1Ie8FaV-APPFb20RIQFyddzNfe1Soqw&buildid=oge_9GL0hBs~&fileid=lVVFq7-eWYo~&mirror=AkamaiHost&nohost=false&ws=true
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2Foge_9GL0hBs%7E%2FSLE-12-SP1-Server-DVD-x86_64-GM-DVD2.iso%3FTFUbVzAamIKcbnAo15Z3mRtVzlS_WI63J8gPMXebYDOVPvP0uo9DVgAfuvnkgcucvV6QqZXranMAxw6qPSgey4q06i_hV0smWswdRXI2Vbqkv40jPK-nM8KF6lSKEhc2mfm1pvriagh7Ikh45VPtqkgtrXp39isxCQ&buildid=oge_9GL0hBs~&fileid=2_tb81oJ5qI~&mirror=AkamaiHost&nohost=false&ws=true
+
+
+desktop------------------------------------------
+
+11 sp4 i586
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2FLa2AdJJ4-Ok%7E%2FSLED-11-SP4-DVD-i586-GM-DVD1.iso%3FAyo48hLkIbPX6IZy_QSvH9wmv2LQ0fgq807v31beM-_PTMcBE3KG0LcqVcYhFoCpmVageB1vT7-tWBpJ6n6wVo6tiYXw9eqKYEnbKQSHWJlOpL_Nnk5_fTJXu9rifvfNiLFJDwRusI7j__rvZPNB5Y8&buildid=La2AdJJ4-Ok~&fileid=reVMl2v-XFY~&mirror=AkamaiHost&nohost=false
+
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2FLa2AdJJ4-Ok%7E%2FSLED-11-SP4-DVD-i586-GM-DVD2.iso%3FrzT4FesIgagTCU4dsuo0qPa9L0KlcnEZzpsnE2ApgUyEF4yjhOV-IHNvUVaFtRJeoUpRMtjTIbcqqsuOhqWw4P_OXtlGzDg_9IWy59qiVLRRn5gQyk55oMhxwS-Z4UGsIGXfX1Y3knshM8F1ANoCGhA&buildid=La2AdJJ4-Ok~&fileid=5qIuLp-SGvc~&mirror=AkamaiHost&nohost=false
+
+11 sp4 x86_64
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2FLa2AdJJ4-Ok%7E%2FSLED-11-SP4-DVD-x86_64-GM-DVD1.iso%3F4GYCQ8yI1tfXIwbP3SN4jrrtzbw2o5YstXFE7x9XlHpXUuZx82B9z35mt82gAio_doZ_jjGZcjTwi-u0UBvmIGUJV2zf7xtazkE1wTG1qZl_DngC_sB_vXtZ5TznbKRbjVm6VAyirOgkF0SPDZsSKrI1YQ&buildid=La2AdJJ4-Ok~&fileid=GatVvUuUEBs~&mirror=AkamaiHost&nohost=false
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2FLa2AdJJ4-Ok%7E%2FSLED-11-SP4-DVD-x86_64-GM-DVD2.iso%3F_tJJEAtFDGSDAl4ijpDGTWrlibheUF1tkmVlb-WmennDimuXgbbkxmmGJXk-i_O0zD-sbkeRu2Xm-jZPiOWhLeha8h5M9aNJR9GvPZ5b4-ciyGnzmc5N6n0OLmJJBMUcxGGkO6-0YNy2padq2mUxUuoTmw&buildid=La2AdJJ4-Ok~&fileid=roVT3yjozY4~&mirror=AkamaiHost&nohost=false
+
+
+12
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2Fan017k-iGf8%7E%2FSLE-12-Desktop-DVD-x86_64-GM-DVD1.iso%3FCm9QF2PYGnZySjZEe8ZT2vOKy3KeLehWqvugKmw7vkL7nCsXGx1HuQm9kOnt-xWvt1vyhW2gKk5T2VRYuQUzj7KTsw6W_-ViOMGGD8pN4LEdKiqoZVzn-c_kQ9t3Q3zTlreCvirWxHeV-msbFCkxf8PG_sWTfw&buildid=an017k-iGf8~&fileid=8LkvvUcHVps~&mirror=AkamaiHost&nohost=false
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2Fan017k-iGf8%7E%2FSLE-12-Desktop-DVD-x86_64-GM-DVD2.iso%3F4UrfId_9VOVWrr2rAwDsIwTjkvRVpFkwe7u9An7kMGJGBBXxzaDws6BdZVuyZDDRysdjzStAOA0PKlXIv58BQ3FwjLGuQZo76Yah4b0QE5nxSlh81LM3H2bNZigdC4qT7TSMTu4GCfFXC2bUaWIik9Nfymnj_w&buildid=an017k-iGf8~&fileid=SPB1RIg7RWM~&mirror=AkamaiHost&nohost=false
+
+
+12 sp1 
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2Fe6YAjiJ1ca0%7E%2FSLE-12-SP1-Desktop-DVD-x86_64-GM-DVD1.iso%3FVFn2KVgBv_LHfqqft1s9ovmvNR8FtUuWN4EqlMCPrWvbkwtI8tQeJCJSAhDiVT2XjzNUSohSuPDGWzpmn4ad9ccFQlCksz0QfhsQNGtmaOzMPd28nBP-NJCGG_rkfVnPkG46fuWHXMtgwnOtijddr06igyargBCAH8I&buildid=e6YAjiJ1ca0~&fileid=81yZpkY8j1k~&mirror=AkamaiHost&nohost=false
+
+https://download.suse.com/sendredirect?target=https%3A%2F%2Fcdn.microfocus.com%2Fprot%2Fe6YAjiJ1ca0%7E%2FSLE-12-SP1-Desktop-DVD-x86_64-GM-DVD2.iso%3FDd7O1WlGnJRq_tmTgO_hS7RQ_AJDwexPrb2lps7lBtw_8yfkvNlTEi7Fa23NOe-uO7LmPp061sG-dywKSxILVfhYt_lSkdaefBRVMMpTAHIVW0f5QpWDhU5lzuh16CF2GM4lHeJQ9yEM0anWMSAl4rdzKPJfF-Ky-xk&buildid=e6YAjiJ1ca0~&fileid=4ljOiYSoI9E~&mirror=AkamaiHost&nohost=false 
+
+
