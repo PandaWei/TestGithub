@@ -1,13 +1,7 @@
 TestGithub
 ==========
 
-Test the link and configuration which between pc and Github ...
+This repo used to backup cfgs, learning notes, classis codes ...
 
-Just first create repo.
-----------------------------
-2013/8/7 
-learn git
-
-----------------------------
-2013/8/18
-test fedora environment ...
+work email: weijg.fnst@cn.fujitsu.com
+personal email: wei.jiangang@foxmail.com
