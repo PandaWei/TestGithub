@@ -1,5 +1,0 @@
-[local]
-name=local-repo
-baseurl=file:///mnt/cdrom
-gpgcheck=0
-enabled=1
