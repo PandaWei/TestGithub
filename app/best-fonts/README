@@ -1,0 +1,4 @@
+#mkdir /usr/share/fonts/myfonts
+#chmod 775 -R /usr/share/fonts/myfonts
+#cd /usr/share/fonts
+#fc-cache myfonts
