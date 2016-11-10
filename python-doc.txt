@@ -1,2 +1,0 @@
-PyPI - the Python Package Index:
-https://pypi.python.org/pypi?cm_mc_uid=15403614109614126760810&cm_mc_sid_50200000=1445236950

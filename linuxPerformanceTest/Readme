@@ -1,9 +1,0 @@
-STEP1: compiling the source.
-gcc -g -pg -o testPerf testPerf.c
-
-STEP2: use gprof to analysis
-gprof ./testPerf gmon.out > report.txt
-
-STEP3: convert report.txt to diagram
-1)gprof2dot report.txt > report.dot 
-2)dot -Tpng -o report.png
